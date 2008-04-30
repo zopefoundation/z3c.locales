@@ -14,7 +14,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Development/Unknown\n"
-"POT-Creation-Date: Thu May 01 00:36:59 2008\n"
+"POT-Creation-Date: Thu May 01 01:13:55 2008\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: Zope 3 Developers <zope3-dev@zope.org>\n"
@@ -23,217 +23,217 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: zope/app/locales/extract.py\n"
 
-#: e/column.py:133
-#: e/column.py:273
-msgid "Name"
-msgstr ""
-
-#: e/column.py:142
-#: e/column.py:174
-msgid "X"
-msgstr ""
-
-#: e/column.py:235
-msgid "Created"
-msgstr ""
-
-#: e/column.py:254
-msgid "Modified"
-msgstr ""
-
-#: e/interfaces.py:105
-msgid "Batch start index"
-msgstr ""
-
-#: e/interfaces.py:106
-msgid "Index the batch starts with"
-msgstr ""
-
-#: e/interfaces.py:110
-msgid "Batch size"
-msgstr ""
-
-#: e/interfaces.py:111
-msgid "The batch size"
-msgstr ""
-
-#: e/interfaces.py:115
-msgid "Batch start size"
-msgstr ""
-
-#: e/interfaces.py:116
-msgid "The minimal size the batch starts to get used"
-msgstr ""
-
-#: e/interfaces.py:201
-msgid "Id"
-msgstr ""
-
-#: e/interfaces.py:202
-msgid "The column id"
-msgstr ""
-
-#: e/interfaces.py:207
-msgid "Colspan"
-msgstr ""
-
-#: e/interfaces.py:208
-msgid "The colspan value"
-msgstr ""
-
-#: e/interfaces.py:212
-msgid "Weight"
-msgstr ""
-
-#: e/interfaces.py:213
-msgid "The column weight"
-msgstr ""
-
-#: e/interfaces.py:217
-msgid "Header name"
-msgstr ""
-
-#: e/interfaces.py:218
-msgid "The header name"
-msgstr ""
-
-#: e/interfaces.py:38
-#: e/interfaces.py:39
-msgid "Column counter"
-msgstr ""
-
-#: e/interfaces.py:55
-msgid "Prefix"
-msgstr ""
-
-#: e/interfaces.py:56
-msgid "The prefix of the table used to uniquely identify it."
-msgstr ""
-
-#: e/interfaces.py:84
-#: e/interfaces.py:85
-msgid "Sort on table index"
-msgstr ""
-
-#: e/interfaces.py:89
-msgid "Sort order"
-msgstr ""
-
-#: e/interfaces.py:90
-msgid "Row sort order"
-msgstr ""
-
-#: e/interfaces.py:97
-#: e/interfaces.py:98
-msgid "Reverse sort order name"
-msgstr ""
-
-#: s/browser.py:143
+#: z3c/contents/browser.py:143
 msgid "No items selected for cut"
 msgstr ""
 
-#: s/browser.py:144
+#: z3c/contents/browser.py:144
 msgid "Items selected for cut"
 msgstr ""
 
-#: s/browser.py:146
+#: z3c/contents/browser.py:146
 msgid "Items choosen for copy"
 msgstr ""
 
-#: s/browser.py:147
+#: z3c/contents/browser.py:147
 msgid "No items selected for copy"
 msgstr ""
 
-#: s/browser.py:148
+#: z3c/contents/browser.py:148
 msgid "Data successfully copied"
 msgstr ""
 
-#: s/browser.py:150
+#: z3c/contents/browser.py:150
 msgid "Could not delete the selected items"
 msgstr ""
 
-#: s/browser.py:151
+#: z3c/contents/browser.py:151
 msgid "No items selected for delete"
 msgstr ""
 
-#: s/browser.py:152
+#: z3c/contents/browser.py:152
 msgid "Data successfully deleted"
 msgstr ""
 
-#: s/browser.py:154
+#: z3c/contents/browser.py:154
 msgid "Data successfully pasted"
 msgstr ""
 
-#: s/browser.py:156
+#: z3c/contents/browser.py:156
 msgid "Could not rename all selected items"
 msgstr ""
 
-#: s/browser.py:157
+#: z3c/contents/browser.py:157
 msgid "Duplicated item name"
 msgstr ""
 
-#: s/browser.py:158
+#: z3c/contents/browser.py:158
 msgid "Item not found"
 msgstr ""
 
-#: s/browser.py:244
+#: z3c/contents/browser.py:244
 msgid "Copy"
 msgstr ""
 
-#: s/browser.py:259
+#: z3c/contents/browser.py:259
 #. Default: ""
 msgid "Object '${name}' (${name}) cannot be copied"
 msgstr ""
 
-#: s/browser.py:263
+#: z3c/contents/browser.py:263
 #. Default: ""
 msgid "Object '${name}' cannot be copied"
 msgstr ""
 
-#: s/browser.py:274
+#: z3c/contents/browser.py:274
 msgid "Cut"
 msgstr ""
 
-#: s/browser.py:289
+#: z3c/contents/browser.py:289
 #. Default: ""
 msgid "Object '${name}' (${name}) cannot be moved"
 msgstr ""
 
-#: s/browser.py:293
+#: z3c/contents/browser.py:293
 #. Default: ""
 msgid "Object '${name}' cannot be moved"
 msgstr ""
 
-#: s/browser.py:304
+#: z3c/contents/browser.py:304
 msgid "Paste"
 msgstr ""
 
-#: s/browser.py:346
+#: z3c/contents/browser.py:346
 msgid "The given name(s) %s is / are already being used"
 msgstr ""
 
-#: s/browser.py:354
+#: z3c/contents/browser.py:354
 msgid "Delete"
 msgstr ""
 
-#: s/browser.py:374
+#: z3c/contents/browser.py:374
 msgid "Rename"
 msgstr ""
 
-#: s/browser.py:398
+#: z3c/contents/browser.py:398
 msgid "No name given"
 msgstr ""
 
-#: s/browser.py:400
+#: z3c/contents/browser.py:400
 msgid "No new name given"
 msgstr ""
 
-#: s/browser.py:58
-#: s/browser.py:62
+#: z3c/contents/browser.py:58
+#: z3c/contents/browser.py:62
 msgid "Search"
 msgstr ""
 
-#: s/browser.py:59
+#: z3c/contents/browser.py:59
 msgid "Search term"
+msgstr ""
+
+#: z3c/table/column.py:133
+#: z3c/table/column.py:273
+msgid "Name"
+msgstr ""
+
+#: z3c/table/column.py:142
+#: z3c/table/column.py:174
+msgid "X"
+msgstr ""
+
+#: z3c/table/column.py:235
+msgid "Created"
+msgstr ""
+
+#: z3c/table/column.py:254
+msgid "Modified"
+msgstr ""
+
+#: z3c/table/interfaces.py:105
+msgid "Batch start index"
+msgstr ""
+
+#: z3c/table/interfaces.py:106
+msgid "Index the batch starts with"
+msgstr ""
+
+#: z3c/table/interfaces.py:110
+msgid "Batch size"
+msgstr ""
+
+#: z3c/table/interfaces.py:111
+msgid "The batch size"
+msgstr ""
+
+#: z3c/table/interfaces.py:115
+msgid "Batch start size"
+msgstr ""
+
+#: z3c/table/interfaces.py:116
+msgid "The minimal size the batch starts to get used"
+msgstr ""
+
+#: z3c/table/interfaces.py:201
+msgid "Id"
+msgstr ""
+
+#: z3c/table/interfaces.py:202
+msgid "The column id"
+msgstr ""
+
+#: z3c/table/interfaces.py:207
+msgid "Colspan"
+msgstr ""
+
+#: z3c/table/interfaces.py:208
+msgid "The colspan value"
+msgstr ""
+
+#: z3c/table/interfaces.py:212
+msgid "Weight"
+msgstr ""
+
+#: z3c/table/interfaces.py:213
+msgid "The column weight"
+msgstr ""
+
+#: z3c/table/interfaces.py:217
+msgid "Header name"
+msgstr ""
+
+#: z3c/table/interfaces.py:218
+msgid "The header name"
+msgstr ""
+
+#: z3c/table/interfaces.py:38
+#: z3c/table/interfaces.py:39
+msgid "Column counter"
+msgstr ""
+
+#: z3c/table/interfaces.py:55
+msgid "Prefix"
+msgstr ""
+
+#: z3c/table/interfaces.py:56
+msgid "The prefix of the table used to uniquely identify it."
+msgstr ""
+
+#: z3c/table/interfaces.py:84
+#: z3c/table/interfaces.py:85
+msgid "Sort on table index"
+msgstr ""
+
+#: z3c/table/interfaces.py:89
+msgid "Sort order"
+msgstr ""
+
+#: z3c/table/interfaces.py:90
+msgid "Row sort order"
+msgstr ""
+
+#: z3c/table/interfaces.py:97
+#: z3c/table/interfaces.py:98
+msgid "Reverse sort order name"
 msgstr ""
 
