@@ -1,12 +1,12 @@
 =======
-CHANGES
+Changes
 =======
 
 
-Version 0.1.0 (unreleased)
---------------------------
+0.1.0 (2009-12-24)
+------------------
 
-- Currently contains german translations for:
+- Currently contains German translations for:
 
   - z3c.authviewlet
   - z3c.contents
