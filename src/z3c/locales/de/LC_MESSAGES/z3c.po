@@ -1,225 +1,342 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: \n"
-"PO-Revision-Date: 2008-05-01 00:38+0100\n"
-"Last-Translator: Roger Ineichen <dev@projekt01.ch>\n"
+"POT-Creation-Date: Thu Dec 24 08:07:35 2009\n"
+"PO-Revision-Date: 2009-12-24 08:23+0100\n"
+"Last-Translator: Michael Howitz <mh@gocept.com>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=iso-8859-1\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: e/column.py:133
-#: e/column.py:273
-msgid "Name"
-msgstr ""
+#. Default: "Logout"
+#: z3c/authviewlet/browser/auth.py:113
+msgid "[Logout]"
+msgstr "Abmelden"
 
-#: e/column.py:142
-#: e/column.py:174
-msgid "X"
-msgstr ""
+#. Default: "Login"
+#: z3c/authviewlet/browser/auth.py:95
+msgid "[Login]"
+msgstr "Anmelden"
 
-#: e/column.py:235
-msgid "Created"
-msgstr ""
+#: z3c/authviewlet/browser/login_failed.pt:2
+msgid "Login Failed!"
+msgstr "Anmeldung fehlgeschlagen!"
 
-#: e/column.py:254
-msgid "Modified"
-msgstr ""
+#: z3c/authviewlet/browser/login_failed.pt:5
+msgid "You cancelled the login procedure."
+msgstr "Sie haben die Anmeldeprozedur abgebrochen."
 
-#: e/interfaces.py:105
-msgid "Batch start index"
-msgstr ""
+#: z3c/authviewlet/browser/login_failed.pt:7
+msgid "Click here to return."
+msgstr "Klicken Sie hier, um zurückzukehren."
 
-#: e/interfaces.py:106
-msgid "Index the batch starts with"
-msgstr ""
+#: z3c/authviewlet/browser/login_success.pt:2
+msgid "Login successful!"
+msgstr "Anmeldung erfolgreich!"
 
-#: e/interfaces.py:110
-msgid "Batch size"
-msgstr ""
+#: z3c/authviewlet/browser/login_success.pt:5
+msgid "You are now logged in as ${UserTitle}."
+msgstr "Sie sind jetzt als ${UserTitle} angemeldet."
 
-#: e/interfaces.py:111
-msgid "The batch size"
-msgstr ""
+#: z3c/authviewlet/browser/login_success.pt:8
+#: z3c/authviewlet/browser/logout.pt:7
+msgid "Back to the main page."
+msgstr "Zurück zur Hauptseite."
 
-#: e/interfaces.py:115
-msgid "Batch start size"
-msgstr ""
+#: z3c/authviewlet/browser/logout.pt:2
+msgid "Logout successful!"
+msgstr "Abmeldung erfolgreich!"
 
-#: e/interfaces.py:116
-msgid "The minimal size the batch starts to get used"
-msgstr ""
+#: z3c/authviewlet/browser/logout.pt:4
+msgid "You are now logged out."
+msgstr "Sie sind jetzt abgemeldet."
 
-#: e/interfaces.py:201
-msgid "Id"
-msgstr ""
+#: z3c/authviewlet/browser/redirect.pt:2
+msgid "You are being redirected!"
+msgstr "Sie werden weitergeleitet!"
 
-#: e/interfaces.py:202
-msgid "The column id"
-msgstr ""
+#: z3c/authviewlet/browser/redirect.pt:5
+msgid "If you see this screen for more than 5 seconds, click here."
+msgstr "Wenn Sie diesen Text länger als fünf Sekunden sehen, klicken Sie hier."
 
-#: e/interfaces.py:207
-msgid "Colspan"
-msgstr ""
+#: z3c/authviewlet/browser/session_cred_loginform.pt:18
+msgid "User Name"
+msgstr "Anmeldename"
 
-#: e/interfaces.py:208
-msgid "The colspan value"
-msgstr ""
+#: z3c/authviewlet/browser/session_cred_loginform.pt:25
+msgid "Password"
+msgstr "Passwort"
 
-#: e/interfaces.py:212
-msgid "Weight"
-msgstr ""
+#: z3c/authviewlet/browser/session_cred_loginform.pt:3
+msgid "Please provide Login Information"
+msgstr "Bitte tragen Sie Ihre Anmeldedaten ein:"
 
-#: e/interfaces.py:213
-msgid "The column weight"
-msgstr ""
+#. Default: "Log in"
+#: z3c/authviewlet/browser/session_cred_loginform.pt:32
+msgid "login-button"
+msgstr "Anmelden"
 
-#: e/interfaces.py:217
-msgid "Header name"
-msgstr ""
+#: z3c/authviewlet/browser/session_cred_loginform.pt:7
+msgid "You are not authorized to perform this action. However, you may login as a different user who is authorized."
+msgstr "Sie sind nicht berechtigt diese Aktion auszuführen. Aber Sie können sich als ein anderer Benutzer anmelden, der berechtigt ist."
 
-#: e/interfaces.py:218
-msgid "The header name"
-msgstr ""
-
-#: e/interfaces.py:38
-#: e/interfaces.py:39
-msgid "Column counter"
-msgstr ""
-
-#: e/interfaces.py:55
-msgid "Prefix"
-msgstr ""
-
-#: e/interfaces.py:56
-msgid "The prefix of the table used to uniquely identify it."
-msgstr ""
-
-#: e/interfaces.py:84
-#: e/interfaces.py:85
-msgid "Sort on table index"
-msgstr ""
-
-#: e/interfaces.py:89
-msgid "Sort order"
-msgstr ""
-
-#: e/interfaces.py:90
-msgid "Row sort order"
-msgstr ""
-
-#: e/interfaces.py:97
-#: e/interfaces.py:98
-msgid "Reverse sort order name"
-msgstr ""
-
-#: s/browser.py:143
+#: z3c/contents/browser.py:143
 msgid "No items selected for cut"
-msgstr ""
+msgstr "Keine Einträge zum Ausschneiden ausgewählt."
 
-#: s/browser.py:144
+#: z3c/contents/browser.py:144
 msgid "Items selected for cut"
-msgstr ""
+msgstr "Einträge zum Ausschneiden ausgewählt"
 
-#: s/browser.py:146
+#: z3c/contents/browser.py:146
 msgid "Items choosen for copy"
-msgstr ""
+msgstr "Einträge zum Kopieren ausgewählt"
 
-#: s/browser.py:147
+#: z3c/contents/browser.py:147
 msgid "No items selected for copy"
-msgstr ""
+msgstr "Keine Einträge zum Kopieren ausgewählt."
 
-#: s/browser.py:148
+#: z3c/contents/browser.py:148
 msgid "Data successfully copied"
-msgstr ""
+msgstr "Daten erfolgreich kopiert."
 
-#: s/browser.py:150
+#: z3c/contents/browser.py:150
 msgid "Could not delete the selected items"
-msgstr ""
+msgstr "Die ausgewählten Einträge konnten nicht gelöscht werden."
 
-#: s/browser.py:151
+#: z3c/contents/browser.py:151
 msgid "No items selected for delete"
-msgstr ""
+msgstr "Keine Einträge zum Löschen ausgewählt."
 
-#: s/browser.py:152
+#: z3c/contents/browser.py:152
 msgid "Data successfully deleted"
-msgstr ""
+msgstr "Daten erfolgreich gelöscht."
 
-#: s/browser.py:154
+#: z3c/contents/browser.py:154
 msgid "Data successfully pasted"
-msgstr ""
+msgstr "Daten erfolgreich eingefügt."
 
-#: s/browser.py:156
+#: z3c/contents/browser.py:156
 msgid "Could not rename all selected items"
-msgstr ""
+msgstr "Nicht alle ausgewählten Einträge konnten umgenannt werden."
 
-#: s/browser.py:157
+#: z3c/contents/browser.py:157
 msgid "Duplicated item name"
-msgstr ""
+msgstr "Doppelter Name für einen Eintrag."
 
-#: s/browser.py:158
+#: z3c/contents/browser.py:158
 msgid "Item not found"
-msgstr ""
+msgstr "Eintrag nicht gefunden."
 
-#: s/browser.py:244
+#: z3c/contents/browser.py:249
 msgid "Copy"
-msgstr ""
+msgstr "Kopieren"
 
 #. Default: ""
-#: s/browser.py:259
+#: z3c/contents/browser.py:264
 msgid "Object '${name}' (${name}) cannot be copied"
-msgstr ""
+msgstr "Objekt '${name}' (${name}) kann nicht kopiert werden."
 
 #. Default: ""
-#: s/browser.py:263
+#: z3c/contents/browser.py:268
 msgid "Object '${name}' cannot be copied"
-msgstr ""
+msgstr "Objekt '${name}' kann nicht kopiert werden."
 
-#: s/browser.py:274
+#: z3c/contents/browser.py:279
 msgid "Cut"
-msgstr ""
+msgstr "Ausschneiden"
 
 #. Default: ""
-#: s/browser.py:289
+#: z3c/contents/browser.py:294
 msgid "Object '${name}' (${name}) cannot be moved"
-msgstr ""
+msgstr "Objekt '${name}' (${name}) kann nicht bewegt werden."
 
 #. Default: ""
-#: s/browser.py:293
+#: z3c/contents/browser.py:298
 msgid "Object '${name}' cannot be moved"
-msgstr ""
+msgstr "Objekt '${name}' kann nicht bewegt werden."
 
-#: s/browser.py:304
+#: z3c/contents/browser.py:309
 msgid "Paste"
-msgstr ""
+msgstr "Einfügen"
 
-#: s/browser.py:346
+#: z3c/contents/browser.py:351
 msgid "The given name(s) %s is / are already being used"
-msgstr ""
+msgstr "Der Name/die Namen %s sind bereits in Benutzung."
 
-#: s/browser.py:354
+#: z3c/contents/browser.py:359
 msgid "Delete"
-msgstr ""
+msgstr "Löschen"
 
-#: s/browser.py:374
+#: z3c/contents/browser.py:379
 msgid "Rename"
-msgstr ""
+msgstr "Umbenennen"
 
-#: s/browser.py:398
+#: z3c/contents/browser.py:403
 msgid "No name given"
-msgstr ""
+msgstr "Kein Name eingetragen."
 
-#: s/browser.py:400
+#: z3c/contents/browser.py:405
 msgid "No new name given"
-msgstr ""
+msgstr "Kein neuer Name eingetragen."
 
-#: s/browser.py:58
-#: s/browser.py:62
+#: z3c/contents/browser.py:58
+#: z3c/contents/browser.py:62
 msgid "Search"
-msgstr ""
+msgstr "Suche"
 
-#: s/browser.py:59
+#: z3c/contents/browser.py:59
 msgid "Search term"
-msgstr ""
+msgstr "Suchbegriff"
+
+#. Default: "Make sure that the Web site address is spelled correctly."
+#: z3c/layer/pagelet/browser/notfound.pt:13
+msgid "page-not-found-spell"
+msgstr "Stellen Sie sicher, dass die Adresse der Webseite richtig geschrieben ist."
+
+#. Default: "Go back and try another URL."
+#: z3c/layer/pagelet/browser/notfound.pt:17
+msgid "page-not-found-try-again"
+msgstr "Gehen Sie zurück und versuchen Sie eine andere URL."
+
+#. Default: "The page you are trying to access is not available"
+#: z3c/layer/pagelet/browser/notfound.pt:4
+msgid "page-not-found"
+msgstr "Die Seite, auf die Sie zugreifen wollen, ist nicht verfügbar."
+
+#. Default: "Please try the following:"
+#: z3c/layer/pagelet/browser/notfound.pt:8
+msgid "page-not-found-try"
+msgstr "Bitte versuchen Sie Folgendes:"
+
+#. Default: "A system error occurred"
+#: z3c/layer/pagelet/browser/systemerror.pt:4
+msgid "sys-error"
+msgstr "Ein Systemfehler ist aufgetreten."
+
+#. Default: "Please contact the administrator."
+#: z3c/layer/pagelet/browser/systemerror.pt:6
+msgid "sys-error-contact"
+msgstr "Bitte wenden Sie sich an den Administrator."
+
+#. Default: "Go back and try another URL."
+#: z3c/layer/pagelet/browser/systemerror.pt:7
+msgid "sys-error-try-again"
+msgstr "Gehen Sie zurück und versuchen Sie eine andere URL."
+
+#. Default: "Unauthorized"
+#: z3c/layer/pagelet/browser/unauthorized.pt:4
+msgid "unauthorized"
+msgstr "Nicht berechtigt."
+
+#. Default: "You are not authorized."
+#: z3c/layer/pagelet/browser/unauthorized.pt:6
+msgid "unauthorized-msg"
+msgstr "Sie sind nicht berechtigt."
+
+#: z3c/table/column.py:142
+#: z3c/table/column.py:315
+msgid "Name"
+msgstr "Name"
+
+#: z3c/table/column.py:151
+#: z3c/table/column.py:191
+msgid "X"
+msgstr "X"
+
+#: z3c/table/column.py:277
+msgid "Created"
+msgstr "Erstellt"
+
+#: z3c/table/column.py:296
+msgid "Modified"
+msgstr "Geändert"
+
+#: z3c/table/interfaces.py:105
+msgid "Batch start index"
+msgstr "Batch start index"
+
+#: z3c/table/interfaces.py:106
+msgid "Index the batch starts with"
+msgstr "Index the batch starts with"
+
+#: z3c/table/interfaces.py:110
+msgid "Batch size"
+msgstr "Batch size"
+
+#: z3c/table/interfaces.py:111
+msgid "The batch size"
+msgstr "The batch size"
+
+#: z3c/table/interfaces.py:115
+msgid "Batch start size"
+msgstr "Batch start size"
+
+#: z3c/table/interfaces.py:116
+msgid "The minimal size the batch starts to get used"
+msgstr "The minimal size the batch starts to get used"
+
+#: z3c/table/interfaces.py:201
+msgid "Id"
+msgstr "ID"
+
+#: z3c/table/interfaces.py:202
+msgid "The column id"
+msgstr "Die Spalten-ID"
+
+#: z3c/table/interfaces.py:207
+msgid "Colspan"
+msgstr "Colspan"
+
+#: z3c/table/interfaces.py:208
+msgid "The colspan value"
+msgstr "The colspan value"
+
+#: z3c/table/interfaces.py:212
+msgid "Weight"
+msgstr "Gewicht"
+
+#: z3c/table/interfaces.py:213
+msgid "The column weight"
+msgstr "The column weight"
+
+#: z3c/table/interfaces.py:217
+msgid "Header name"
+msgstr "Header name"
+
+#: z3c/table/interfaces.py:218
+msgid "The header name"
+msgstr "The header name"
+
+#: z3c/table/interfaces.py:38
+#: z3c/table/interfaces.py:39
+msgid "Column counter"
+msgstr "Column counter"
+
+#: z3c/table/interfaces.py:55
+msgid "Prefix"
+msgstr "Prefix"
+
+#: z3c/table/interfaces.py:56
+msgid "The prefix of the table used to uniquely identify it."
+msgstr "The prefix of the table used to uniquely identify it."
+
+#: z3c/table/interfaces.py:84
+#: z3c/table/interfaces.py:85
+msgid "Sort on table index"
+msgstr "Sort on table index"
+
+#: z3c/table/interfaces.py:89
+msgid "Sort order"
+msgstr "Sort order"
+
+#: z3c/table/interfaces.py:90
+msgid "Row sort order"
+msgstr "Row sort order"
+
+#: z3c/table/interfaces.py:97
+#: z3c/table/interfaces.py:98
+msgid "Reverse sort order name"
+msgstr "Reverse sort order name"
 

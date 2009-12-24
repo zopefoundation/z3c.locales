@@ -1,6 +1,6 @@
 ##############################################################################
 #
-# Copyright (c) 2008 Zope Foundation and Contributors.
+# Copyright (c) 2008-2009 Zope Foundation and Contributors.
 # All Rights Reserved.
 #
 # This software is subject to the provisions of the Zope Public License,
@@ -11,19 +11,19 @@
 # FOR A PARTICULAR PURPOSE.
 #
 ##############################################################################
-"""Setup
+"""Setup"""
 
-$Id:$
-"""
 import os
 from setuptools import setup, find_packages
+
 
 def read(*rnames):
     return open(os.path.join(os.path.dirname(__file__), *rnames)).read()
 
+
 setup(
     name = 'z3c.locales',
-    version = '0.0.1dev',
+    version = '0.1.0dev',
     author='Zope Foundation and Contributors',
     author_email='zope3-dev@zope.org',
     description = "Shared z3c domain translations",
@@ -32,7 +32,7 @@ setup(
         + '\n\n' +
         read('CHANGES.txt')
         ),
-    keywords = "Zope z3c locale i18n internationalisation",
+    keywords = "Zope z3c locale locales i18n internationalisation",
     classifiers = [
         'Development Status :: 4 - Beta',
         'Environment :: Web Environment',
@@ -54,14 +54,16 @@ setup(
             'zope.testing',
             ],
         extract = [
-            'z3c.table',
+            'z3c.authviewlet',
             'z3c.contents',
+            'z3c.csvvocabulary',
+            'z3c.layer.pagelet',
+            'z3c.table',
             ],
         ),
     install_requires = [
         'setuptools',
-        'zope.i18nmessageid',
-        'z3c.csvvocabulary',
+        'zope.i18n',
         ],
     zip_safe = False,
     )

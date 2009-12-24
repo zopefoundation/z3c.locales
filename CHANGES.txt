@@ -3,7 +3,14 @@ CHANGES
 =======
 
 
-Version 0.0.1dev (unreleased)
------------------------------
+Version 0.1.0 (unreleased)
+--------------------------
 
-- Initial Release
+- Currently contains german translations for:
+
+  - z3c.authviewlet
+  - z3c.contents
+  - z3c.layer.pagelet
+  - z3c.table
+
+- Initial release.

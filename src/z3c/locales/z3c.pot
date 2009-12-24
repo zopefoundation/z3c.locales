@@ -14,7 +14,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Development/Unknown\n"
-"POT-Creation-Date: Thu May 01 01:13:55 2008\n"
+"POT-Creation-Date: Thu Dec 24 08:07:35 2009\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: Zope 3 Developers <zope3-dev@zope.org>\n"
@@ -22,6 +22,78 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: zope/app/locales/extract.py\n"
+
+#: z3c/authviewlet/browser/auth.py:113
+#. Default: "Logout"
+msgid "[Logout]"
+msgstr ""
+
+#: z3c/authviewlet/browser/auth.py:95
+#. Default: "Login"
+msgid "[Login]"
+msgstr ""
+
+#: z3c/authviewlet/browser/login_failed.pt:2
+msgid "Login Failed!"
+msgstr ""
+
+#: z3c/authviewlet/browser/login_failed.pt:5
+msgid "You cancelled the login procedure."
+msgstr ""
+
+#: z3c/authviewlet/browser/login_failed.pt:7
+msgid "Click here to return."
+msgstr ""
+
+#: z3c/authviewlet/browser/login_success.pt:2
+msgid "Login successful!"
+msgstr ""
+
+#: z3c/authviewlet/browser/login_success.pt:5
+msgid "You are now logged in as ${UserTitle}."
+msgstr ""
+
+#: z3c/authviewlet/browser/login_success.pt:8
+#: z3c/authviewlet/browser/logout.pt:7
+msgid "Back to the main page."
+msgstr ""
+
+#: z3c/authviewlet/browser/logout.pt:2
+msgid "Logout successful!"
+msgstr ""
+
+#: z3c/authviewlet/browser/logout.pt:4
+msgid "You are now logged out."
+msgstr ""
+
+#: z3c/authviewlet/browser/redirect.pt:2
+msgid "You are being redirected!"
+msgstr ""
+
+#: z3c/authviewlet/browser/redirect.pt:5
+msgid "If you see this screen for more than 5 seconds, click here."
+msgstr ""
+
+#: z3c/authviewlet/browser/session_cred_loginform.pt:18
+msgid "User Name"
+msgstr ""
+
+#: z3c/authviewlet/browser/session_cred_loginform.pt:25
+msgid "Password"
+msgstr ""
+
+#: z3c/authviewlet/browser/session_cred_loginform.pt:3
+msgid "Please provide Login Information"
+msgstr ""
+
+#: z3c/authviewlet/browser/session_cred_loginform.pt:32
+#. Default: "Log in"
+msgid "login-button"
+msgstr ""
+
+#: z3c/authviewlet/browser/session_cred_loginform.pt:7
+msgid "You are not authorized to perform this action. However, you may login as a different user who is authorized."
+msgstr ""
 
 #: z3c/contents/browser.py:143
 msgid "No items selected for cut"
@@ -71,55 +143,55 @@ msgstr ""
 msgid "Item not found"
 msgstr ""
 
-#: z3c/contents/browser.py:244
+#: z3c/contents/browser.py:249
 msgid "Copy"
 msgstr ""
 
-#: z3c/contents/browser.py:259
+#: z3c/contents/browser.py:264
 #. Default: ""
 msgid "Object '${name}' (${name}) cannot be copied"
 msgstr ""
 
-#: z3c/contents/browser.py:263
+#: z3c/contents/browser.py:268
 #. Default: ""
 msgid "Object '${name}' cannot be copied"
 msgstr ""
 
-#: z3c/contents/browser.py:274
+#: z3c/contents/browser.py:279
 msgid "Cut"
 msgstr ""
 
-#: z3c/contents/browser.py:289
+#: z3c/contents/browser.py:294
 #. Default: ""
 msgid "Object '${name}' (${name}) cannot be moved"
 msgstr ""
 
-#: z3c/contents/browser.py:293
+#: z3c/contents/browser.py:298
 #. Default: ""
 msgid "Object '${name}' cannot be moved"
 msgstr ""
 
-#: z3c/contents/browser.py:304
+#: z3c/contents/browser.py:309
 msgid "Paste"
 msgstr ""
 
-#: z3c/contents/browser.py:346
+#: z3c/contents/browser.py:351
 msgid "The given name(s) %s is / are already being used"
 msgstr ""
 
-#: z3c/contents/browser.py:354
+#: z3c/contents/browser.py:359
 msgid "Delete"
 msgstr ""
 
-#: z3c/contents/browser.py:374
+#: z3c/contents/browser.py:379
 msgid "Rename"
 msgstr ""
 
-#: z3c/contents/browser.py:398
+#: z3c/contents/browser.py:403
 msgid "No name given"
 msgstr ""
 
-#: z3c/contents/browser.py:400
+#: z3c/contents/browser.py:405
 msgid "No new name given"
 msgstr ""
 
@@ -132,21 +204,66 @@ msgstr ""
 msgid "Search term"
 msgstr ""
 
-#: z3c/table/column.py:133
-#: z3c/table/column.py:273
-msgid "Name"
+#: z3c/layer/pagelet/browser/notfound.pt:13
+#. Default: "Make sure that the Web site address is spelled correctly."
+msgid "page-not-found-spell"
+msgstr ""
+
+#: z3c/layer/pagelet/browser/notfound.pt:17
+#. Default: "Go back and try another URL."
+msgid "page-not-found-try-again"
+msgstr ""
+
+#: z3c/layer/pagelet/browser/notfound.pt:4
+#. Default: "The page you are trying to access is not available"
+msgid "page-not-found"
+msgstr ""
+
+#: z3c/layer/pagelet/browser/notfound.pt:8
+#. Default: "Please try the following:"
+msgid "page-not-found-try"
+msgstr ""
+
+#: z3c/layer/pagelet/browser/systemerror.pt:4
+#. Default: "A system error occurred"
+msgid "sys-error"
+msgstr ""
+
+#: z3c/layer/pagelet/browser/systemerror.pt:6
+#. Default: "Please contact the administrator."
+msgid "sys-error-contact"
+msgstr ""
+
+#: z3c/layer/pagelet/browser/systemerror.pt:7
+#. Default: "Go back and try another URL."
+msgid "sys-error-try-again"
+msgstr ""
+
+#: z3c/layer/pagelet/browser/unauthorized.pt:4
+#. Default: "Unauthorized"
+msgid "unauthorized"
+msgstr ""
+
+#: z3c/layer/pagelet/browser/unauthorized.pt:6
+#. Default: "You are not authorized."
+msgid "unauthorized-msg"
 msgstr ""
 
 #: z3c/table/column.py:142
-#: z3c/table/column.py:174
+#: z3c/table/column.py:315
+msgid "Name"
+msgstr ""
+
+#: z3c/table/column.py:151
+#: z3c/table/column.py:191
 msgid "X"
 msgstr ""
 
-#: z3c/table/column.py:235
+#: z3c/table/column.py:277
 msgid "Created"
 msgstr ""
 
-#: z3c/table/column.py:254
+#: z3c/table/column.py:296
 msgid "Modified"
 msgstr ""
 
