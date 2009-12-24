@@ -6,7 +6,7 @@ Changes
 0.1.1 (unreleased)
 ------------------
 
-- Nothing changed yet.
+- Updated author's email address and home page address.
 
 
 0.1.0 (2009-12-24)
