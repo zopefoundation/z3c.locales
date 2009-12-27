@@ -14,7 +14,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Development/Unknown\n"
-"POT-Creation-Date: Thu Dec 24 08:07:35 2009\n"
+"POT-Creation-Date: Sun Dec 27 14:37:07 2009\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: Zope 3 Developers <zope3-dev@zope.org>\n"
@@ -23,75 +23,75 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: zope/app/locales/extract.py\n"
 
-#: z3c/authviewlet/browser/auth.py:113
+#: z3c/authviewlet/auth.py:112
 #. Default: "Logout"
 msgid "[Logout]"
 msgstr ""
 
-#: z3c/authviewlet/browser/auth.py:95
+#: z3c/authviewlet/auth.py:94
 #. Default: "Login"
 msgid "[Login]"
 msgstr ""
 
-#: z3c/authviewlet/browser/login_failed.pt:2
+#: z3c/authviewlet/login_failed.pt:2
 msgid "Login Failed!"
 msgstr ""
 
-#: z3c/authviewlet/browser/login_failed.pt:5
+#: z3c/authviewlet/login_failed.pt:5
 msgid "You cancelled the login procedure."
 msgstr ""
 
-#: z3c/authviewlet/browser/login_failed.pt:7
+#: z3c/authviewlet/login_failed.pt:7
 msgid "Click here to return."
 msgstr ""
 
-#: z3c/authviewlet/browser/login_success.pt:2
+#: z3c/authviewlet/login_success.pt:2
 msgid "Login successful!"
 msgstr ""
 
-#: z3c/authviewlet/browser/login_success.pt:5
+#: z3c/authviewlet/login_success.pt:5
 msgid "You are now logged in as ${UserTitle}."
 msgstr ""
 
-#: z3c/authviewlet/browser/login_success.pt:8
-#: z3c/authviewlet/browser/logout.pt:7
+#: z3c/authviewlet/login_success.pt:8
+#: z3c/authviewlet/logout.pt:7
 msgid "Back to the main page."
 msgstr ""
 
-#: z3c/authviewlet/browser/logout.pt:2
+#: z3c/authviewlet/logout.pt:2
 msgid "Logout successful!"
 msgstr ""
 
-#: z3c/authviewlet/browser/logout.pt:4
+#: z3c/authviewlet/logout.pt:4
 msgid "You are now logged out."
 msgstr ""
 
-#: z3c/authviewlet/browser/redirect.pt:2
+#: z3c/authviewlet/redirect.pt:2
 msgid "You are being redirected!"
 msgstr ""
 
-#: z3c/authviewlet/browser/redirect.pt:5
+#: z3c/authviewlet/redirect.pt:5
 msgid "If you see this screen for more than 5 seconds, click here."
 msgstr ""
 
-#: z3c/authviewlet/browser/session_cred_loginform.pt:18
+#: z3c/authviewlet/session_cred_loginform.pt:18
 msgid "User Name"
 msgstr ""
 
-#: z3c/authviewlet/browser/session_cred_loginform.pt:25
+#: z3c/authviewlet/session_cred_loginform.pt:25
 msgid "Password"
 msgstr ""
 
-#: z3c/authviewlet/browser/session_cred_loginform.pt:3
+#: z3c/authviewlet/session_cred_loginform.pt:3
 msgid "Please provide Login Information"
 msgstr ""
 
-#: z3c/authviewlet/browser/session_cred_loginform.pt:32
+#: z3c/authviewlet/session_cred_loginform.pt:32
 #. Default: "Log in"
 msgid "login-button"
 msgstr ""
 
-#: z3c/authviewlet/browser/session_cred_loginform.pt:7
+#: z3c/authviewlet/session_cred_loginform.pt:7
 msgid "You are not authorized to perform this action. However, you may login as a different user who is authorized."
 msgstr ""
 
