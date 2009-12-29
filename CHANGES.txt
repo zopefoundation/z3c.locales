@@ -8,6 +8,12 @@ Changes
 
 - Updated author's email address and home page address.
 
+- Added z3c.wizard to list of translated packages. Added German
+  translations for this package.
+
+- Removed .mo file from distribution. `zope.i18n` is able to produce
+  it on the fly (when `python-gettext` is installed, too).
+
 
 0.1.0 (2009-12-24)
 ------------------

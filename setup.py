@@ -60,6 +60,7 @@ setup(
             'z3c.csvvocabulary',
             'z3c.layer.pagelet',
             'z3c.table',
+            'z3c.wizard',
             ],
         ),
     install_requires = [
