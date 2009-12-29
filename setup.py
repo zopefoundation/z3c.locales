@@ -23,7 +23,7 @@ def read(*rnames):
 
 setup(
     name = 'z3c.locales',
-    version = '0.1.1dev',
+    version = '0.2.0',
     author='Zope Foundation and Contributors',
     author_email='zope-dev@zope.org',
     description = "Shared z3c domain translations",

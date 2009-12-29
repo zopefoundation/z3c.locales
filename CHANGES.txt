@@ -3,7 +3,7 @@ Changes
 =======
 
 
-0.1.1 (unreleased)
+0.2.0 (2009-12-29)
 ------------------
 
 - Updated author's email address and home page address.
