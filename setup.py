@@ -62,6 +62,9 @@ setup(
             'z3c.table',
             'z3c.wizard',
             ],
+        compile=[
+            'python-gettext'
+            ],
         ),
     install_requires = [
         'setuptools',

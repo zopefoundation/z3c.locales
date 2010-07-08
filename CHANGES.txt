@@ -6,7 +6,8 @@ Changes
 0.2.1 (unreleased)
 ------------------
 
-- Nothing changed yet.
+- Added `compile` extra which requires ``python-gettext`` to ease on
+  the fly generation of the .mo files.
 
 
 0.2.0 (2009-12-29)
