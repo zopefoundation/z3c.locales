@@ -3,7 +3,7 @@ Changes
 =======
 
 
-0.2.1 (unreleased)
+0.3.0 (2010-07-08)
 ------------------
 
 - Added `compile` extra which requires ``python-gettext`` to ease on
