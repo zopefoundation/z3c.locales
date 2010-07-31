@@ -3,7 +3,7 @@ Changes
 =======
 
 
-0.3.1 (unreleased)
+0.3.1 (2010-07-31)
 ------------------
 
 - Updated translations for new message id in `z3c.table` 0.8.1.
