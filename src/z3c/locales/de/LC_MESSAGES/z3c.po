@@ -1,13 +1,16 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: \n"
-"POT-Creation-Date: Tue Dec 29 12:14:38 2009\n"
-"PO-Revision-Date: 2009-12-29 14:46+0100\n"
+"Project-Id-Version: z3c.locales\n"
+"POT-Creation-Date: Sat Jul 31 14:36:35 2010\n"
+"PO-Revision-Date: 2010-07-31 14:36+0100\n"
 "Last-Translator: Michael Howitz <mh@gocept.com>\n"
-"Language-Team: \n"
+"Language-Team: Zope Foundation translation team <zope-dev@zope.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: German\n"
+"X-Poedit-Country: GERMANY\n"
+"X-Poedit-SourceCharset: utf-8\n"
 
 #. Default: "Logout"
 #: z3c/authviewlet/auth.py:112
@@ -236,7 +239,7 @@ msgid "unauthorized-msg"
 msgstr "Sie sind nicht berechtigt."
 
 #: z3c/table/column.py:141
-#: z3c/table/column.py:314
+#: z3c/table/column.py:321
 msgid "Name"
 msgstr "Name"
 
@@ -245,100 +248,104 @@ msgstr "Name"
 msgid "X"
 msgstr "X"
 
-#: z3c/table/column.py:276
+#: z3c/table/column.py:283
 msgid "Created"
 msgstr "Erstellt"
 
-#: z3c/table/column.py:295
+#: z3c/table/column.py:302
 msgid "Modified"
 msgstr "Geändert"
 
-#: z3c/table/interfaces.py:105
-msgid "Batch start index"
-msgstr "Batch start index"
+#: z3c/table/header.py:100
+msgid "Sort"
+msgstr "Sortieren"
 
-#: z3c/table/interfaces.py:106
-msgid "Index the batch starts with"
-msgstr "Index the batch starts with"
-
-#: z3c/table/interfaces.py:110
+#: z3c/table/interfaces.py:102
 msgid "Batch size"
 msgstr "Batch size"
 
-#: z3c/table/interfaces.py:111
+#: z3c/table/interfaces.py:103
 msgid "The batch size"
 msgstr "The batch size"
 
-#: z3c/table/interfaces.py:115
+#: z3c/table/interfaces.py:107
 msgid "Batch start size"
 msgstr "Batch start size"
 
-#: z3c/table/interfaces.py:116
+#: z3c/table/interfaces.py:108
 msgid "The minimal size the batch starts to get used"
 msgstr "The minimal size the batch starts to get used"
 
-#: z3c/table/interfaces.py:204
+#: z3c/table/interfaces.py:196
 msgid "Id"
 msgstr "ID"
 
-#: z3c/table/interfaces.py:205
+#: z3c/table/interfaces.py:197
 msgid "The column id"
 msgstr "Die Spalten-ID"
 
-#: z3c/table/interfaces.py:210
+#: z3c/table/interfaces.py:202
 msgid "Colspan"
 msgstr "Colspan"
 
-#: z3c/table/interfaces.py:211
+#: z3c/table/interfaces.py:203
 msgid "The colspan value"
 msgstr "The colspan value"
 
-#: z3c/table/interfaces.py:215
+#: z3c/table/interfaces.py:207
 msgid "Weight"
 msgstr "Gewicht"
 
-#: z3c/table/interfaces.py:216
+#: z3c/table/interfaces.py:208
 msgid "The column weight"
 msgstr "The column weight"
 
-#: z3c/table/interfaces.py:220
+#: z3c/table/interfaces.py:212
 msgid "Header name"
 msgstr "Header name"
 
-#: z3c/table/interfaces.py:221
+#: z3c/table/interfaces.py:213
 msgid "The header name"
 msgstr "The header name"
 
-#: z3c/table/interfaces.py:38
-#: z3c/table/interfaces.py:39
+#: z3c/table/interfaces.py:30
+#: z3c/table/interfaces.py:31
 msgid "Column counter"
 msgstr "Column counter"
 
-#: z3c/table/interfaces.py:55
+#: z3c/table/interfaces.py:47
 msgid "Prefix"
 msgstr "Prefix"
 
-#: z3c/table/interfaces.py:56
+#: z3c/table/interfaces.py:48
 msgid "The prefix of the table used to uniquely identify it."
 msgstr "The prefix of the table used to uniquely identify it."
 
-#: z3c/table/interfaces.py:84
-#: z3c/table/interfaces.py:85
+#: z3c/table/interfaces.py:76
+#: z3c/table/interfaces.py:77
 msgid "Sort on table index"
 msgstr "Sort on table index"
 
-#: z3c/table/interfaces.py:89
+#: z3c/table/interfaces.py:81
 msgid "Sort order"
 msgstr "Sort order"
 
-#: z3c/table/interfaces.py:90
+#: z3c/table/interfaces.py:82
 msgid "Row sort order"
 msgstr "Row sort order"
 
-#: z3c/table/interfaces.py:97
-#: z3c/table/interfaces.py:98
+#: z3c/table/interfaces.py:89
+#: z3c/table/interfaces.py:90
 msgid "Reverse sort order name"
 msgstr "Reverse sort order name"
+
+#: z3c/table/interfaces.py:97
+msgid "Batch start index"
+msgstr "Batch start index"
+
+#: z3c/table/interfaces.py:98
+msgid "Index the batch starts with"
+msgstr "Index the batch starts with"
 
 #: z3c/wizard/interfaces.py:42
 msgid "Back"
